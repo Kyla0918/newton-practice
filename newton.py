@@ -55,10 +55,7 @@
     "    \n",
     "    return x, f(x), max_iter\n",
     "\n",
-    "x_optimal, f_optimal, iterations = newton_method(f, x0=0)\n",
-    "print(f\"Optimal x: {x_optimal}\")\n",
-    "print(f\"Optimal f(x): {f_optimal}\")\n",
-    "print(f\"Number of iterations: {iterations}\""
+   
    ]
   },
   {
